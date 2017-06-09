@@ -12,6 +12,7 @@
     "npm": "3.10.10"
   },
   "dependencies": {
-    "express": "4.13.x"
+    "express": "4.13.x",
+    "ws": "^3.0.0"
   }
 }

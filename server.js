@@ -1,11 +1,13 @@
-var express = require('express');
-var app = express();
-var port = process.env.PORT || 3000;
-
-app.get('/', function (req, res) {
-    res.send("Hello dev, am a local route nobody knows me yet!3");
-});
-
-var server = app.listen(port, function () {
-    console.log('node server is just fine! and running on port - ' + port);
-});
+    var WebSocketServer = require('ws').Server
+        , wss = new WebSocketServer({ port: 9092 });
+       
+    console.log('Server running on port 9092.');
+       
+    wss.on('connection', function connection(ws){
+        console.log('Client connected');
+        ws.on('message', function incoming(message){
+            console.log('Received: %s', message);
+        });
+       
+        ws.send('blaat');
+    });
