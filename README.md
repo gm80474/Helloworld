@@ -54,7 +54,7 @@ wait for the finish and test:
 这里会弹出要求输入用户名密码然后网页访问就可以看到已经上传
 
 > Helloword1>git remote -v  
-如果有多个远程仓库，此命令将全部列出
+如果有多个远程仓库，此命令将全部列出  
 :musical_note:  
 之后就可以转到其他HEROKU操作
 
