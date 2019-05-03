@@ -1,3 +1,9 @@
+:musical_note:
+https://help.github.com/en/articles/basic-writing-and-formatting-syntax
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+
+
 # Setup
 ```
 git config --global user.name "gm80474"
