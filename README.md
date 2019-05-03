@@ -40,7 +40,7 @@ cd Helloworld
 ```
 # edit \Helloworld1\rserver.js
 
-# 安装依赖
+# dependence installation
 ```
 Helloword1>npm install
 ////wait for the finish and test:
