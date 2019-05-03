@@ -1,15 +1,14 @@
-# Helloworld
-
+# Setup
+` 
 git config --global user.name "gm80474"
-
 git config --global user.email "gm80474@gmail.com"
-
+` 
+` 
 git clone "https://github.com/gm80474/Helloworld.git" Helloworld1
-
 cd Helloworld
-
-#edit \Helloworld1\package.json
-`
+` 
+# edit \Helloworld1\package.json
+` 
 {
   "name": "nodejsheroku",
   "version": "0.0.1",
@@ -29,7 +28,8 @@ cd Helloworld
   }
 }
 `
-#edit \Helloworld1\rocfile
+
+# edit \Helloworld1\rocfile
 `
 "web: node server.js"
 `
