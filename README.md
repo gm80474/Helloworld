@@ -4,7 +4,7 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 
 
-# Setup
+# Setup git and node.js
 ```
 git config --global user.name "gm80474"
 git config --global user.email "gm80474@gmail.com"
