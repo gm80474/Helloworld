@@ -24,8 +24,8 @@ cd Helloworld
     "email": "gm80474@gmail.com"
   },
   "engines": {
-    "node": "6.10.3",
-    "npm": "3.10.10"
+    "node": "10.15.3",
+    "npm": "6.4.1"
   },
   "dependencies": {
     "express": "4.13.x",
@@ -33,6 +33,10 @@ cd Helloworld
   }
 }
 ```
+////node/npm 版本参考 https://nodejs.org/en/download/releases/
+////express 版本参考 https://github.com/expressjs/express/blob/master/package.json
+////ws 版本参考 https://www.npmjs.com/package/ws
+
 
 # edit \Helloworld1\rocfile
 ```
